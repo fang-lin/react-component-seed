@@ -1,0 +1,63 @@
+.my-component {
+  background: #aaa;
+  height: 300px;
+  position: relative;
+  padding: 1px;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+//.sub-menu {
+//  .close-ele {
+//    transition: all .01s;
+//    display: none;
+//    //opacity: 0;
+//  }
+//  .open-ele {
+//    transition: all .01s;
+//    display: block;
+//    //opacity: 1;
+//  }
+//  &.opened {
+//    .close-ele {
+//      display: block;
+//      //opacity: 1;
+//    }
+//    .open-ele {
+//      display: none;
+//      //opacity: 0;
+//    }
+//  }
+//}
+.close-ele {
+  transition: all .02s;
+}
+
+.open-ele {
+  transition: all .02s;
+}
+
+.close-ele {
+  background: rgba(0, 255, 0, .3);
+  position: absolute;
+  top: 0;
+  left: 30px;
+  right: 30px;
+  text-align: center;
+  padding: 60px 0;
+  color: white;
+}
+
+.open-ele {
+  background: rgba(255, 0, 0, .3);
+  position: absolute;
+  top: 0;
+  left: 30px;
+  right: 30px;
+  text-align: center;
+  color: white;
+  margin: 5px 0;
+  padding: 10px;
+}
