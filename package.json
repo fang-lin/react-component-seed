@@ -5,8 +5,7 @@
   "main": "./dist/MyComponent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "http-server -p 3000",
-    "prepush": "npm test"
+    "demo": "http-server -p 3000"
   },
   "repository": {
     "type": "git",
