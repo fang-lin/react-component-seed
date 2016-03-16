@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 import MySubComponent from './MySubComponent';
 
 module.exports = React.createClass({

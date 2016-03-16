@@ -89,5 +89,5 @@ gen
 
 # dist files
 
-dist
+/demo
 
